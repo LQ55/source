@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>编译器</title>
+<link href="../css/index.css" rel="stylesheet" />
+<script src="../js/jquery-2.1.1/jquery.js"></script>
+<script type="text/javascript" src="../js/filesaver/FileSaver.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+	<div class="menubar">
+		<ul>
+			<div class="dropdown">
+				<a href="#" class="dropbtn">文件</a>
+					<div class="dropdown-content">
+						<input style="display: none" type="file" id="file"
+							onchange="readFile()"/> <a href="#" onclick="importFile()">打开文件</a>
+						<a href="#">保存文件(CTRL+S)</a> <a href="#">另存为</a>
+					</div>
+				<a href="#" class="wordanly">词法分析</a>
+				<div class="wordanly-childmenu">
+					<input style="display: none" type="file" id="file"
+							onchange="readFile()"/> <a href="#" onclick="importFile()">打开文件</a>
+						<a href="#">保存文件(CTRL+S)</a> <a href="#">另存为</a>
+					</div>
+				<a href="#" class="syntax">语法分析</a>
+				<a href="#" class="midcode">中间代码生成</a>
+				<a href="#" class="aimcode">目标代码生成</a>
+				<a href="#" class="help">帮助</a>
+			</div>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="item file-context">
+			<div>
+				<div class="tabcard">源码区</div>
+				<div
+					style="float: left; height: 10%; width: 50%; margin-left: 30%; display: inline-block;">
+					当前文件：<span id="filenamespan"
+						style="height: 30px; line-height: 30px;"></span>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			<textarea id="code"></textarea>
+		</div>
+		<div class="item token-context">
+			<div class="tabcard">TOKEN</div>
+			<div style="height: 90%;">
+				<table>
+
+				</table>
+			</div>
+		</div>
+		<div class="item symbol-context">
+			<div class="tabcard">代码区</div>
+		</div>
+		<div class="item error-context">
+			<div class="tabcard">错误区</div>
+		</div>
+	</div>
+</body>
+</html>
