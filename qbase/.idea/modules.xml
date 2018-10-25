@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qbase.iml" filepath="$PROJECT_DIR$/.idea/modules/qbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qbase_main.iml" filepath="$PROJECT_DIR$/.idea/modules/qbase_main.iml" group="qbase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qbase_test.iml" filepath="$PROJECT_DIR$/.idea/modules/qbase_test.iml" group="qbase" />
+    </modules>
+  </component>
+</project>
