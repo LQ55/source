@@ -2,7 +2,7 @@
 
 **简介：** </br>
 组合模式（Composite Pattern），又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次。这种类型的设计模式属于结构型模式，它创建了对象组的树形结构。
-这种模式创建了一个包含自己对象组的类。该类提供了修改相同对象组的方式。
+这种模式创建了一个包含自己对象组的类。该类提供了修改相同 对象组的方式。
 
 **应用与作用：** </br>
 它在我们树型结构的问题中，模糊了简单元素和复杂元素的概念，客户程序可以向处理简单元素一样来处理复杂元素，从而使得客户程序与复杂元素的内部结构解耦,组合模式使得用户对单个对象和组合对象的使用具有一致性。
@@ -19,4 +19,4 @@
 
 
 参考文献：</br>
-[组合模式-百度百科](http://baike.baidu.com/link?url=Ya5mjVEkWCIknSlkYJX-FvXlPDNJmsB16m4-d1eXhOM5kMn0phNQ8xY_326Y5BgrDWj5MYW5lxnCvL_xZ-5kAP6P_ArKyMKKvVPNWorNvGmVpAxoXib9lpWyJlCqKhO7)
+[组合模式-百度百科](http://baike.baidu.com/link ?url=Ya5mjVEkWCIknSlkYJX-FvXlPDNJmsB16m4-d1eXhOM5kMn0phNQ8xY_326Y5BgrDWj5MYW5lxnCvL_xZ-5kAP6P_ArKyMKKvVPNWorNvGmVpAxoXib9lpWyJlCqKhO7)
