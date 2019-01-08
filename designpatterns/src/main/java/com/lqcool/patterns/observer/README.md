@@ -1,7 +1,7 @@
 ### 观察者模式
 
 **简介：** </br>
-观察者模式（Observer Pattern）又叫发布订-阅模式，观察者模式是一种对象行为模式，Prototype模式允许一个对象再创建另外一个可定制的对象，根本无需知道任何如何创建的细节,当需要大量创建相同或者相似的对象是，可以通过一个已有对象的复制获取更多对象。这种模式是实现了一个原型接口，该接口用于创建当前对象的克隆。原型模式实现了Cloneable接口
+观察者模式（Observer Pattern）又叫发布订-阅模式，观察者模式是一种对象行为模式。当对象间存在一对多关系时，则使用观察者模式（Observer Pattern）。比如，当一个对象被修改时，则会自动通知它的依赖对象。
 
 **模式结构**
  ![原型模式](https://github.com/lqcool/source/blob/master/designpatterns/src/main/resources/images/%e8%a7%82%e5%af%9f%e8%80%85%e6%a8%a1%e5%bc%8f%e7%bb%93%e6%9e%84.png)
